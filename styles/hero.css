@@ -1,0 +1,26 @@
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../resources/wave.svg');
+    background-size: cover;
+}
+
+.hero_contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+}
+
+.hero_contenido h1 {
+    font-size: 3.75rem;
+}
+
+.hero_contenido p {
+    margin-top: 0.4rem;
+    font-size: 1.75rem;
+}

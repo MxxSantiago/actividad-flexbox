@@ -1,0 +1,13 @@
+.cabezera {
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    background-color: #444;
+    border-bottom: 1px solid #333;
+}
+
+.navegacion_lista {
+    list-style: none;
+    display: flex;
+    gap: 1.25em;
+}
