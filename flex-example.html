@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>justify-content</title>
+        <style>
+            body {
+                font-family: 'Segoe UI';
+                background-color: #1f1f1f;
+                color: #e0e0e0;
+            }
+            .flex-container {
+                display: flex;
+                padding: 10px;
+                border: 3px solid #0175d2;
+            }
+            .flex-start {
+                justify-content: flex-start;
+            }
+            .flex-end {
+                justify-content: flex-end;
+            }
+            .a {
+            }
+            .center {
+                justify-content: center;
+            }
+            .space-between {
+                justify-content: space-between;
+            }
+            .space-around {
+                justify-content: space-around;
+            }
+            .flex-start {
+                justify-content: flex-start;
+            }
+            .flex-container > div {
+                width: 20%;
+                height: 70px;
+                margin: 2px;
+                background-color: #c7a3da;
+            }
+        </style>
+    </head>
+    <body>
+        <p>flex-start</p>
+        <div class="flex-container flex-start">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p>flex-end</p>
+        <div class="flex-container flex-end">
+            <div class="a"></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p>center</p>
+        <div class="flex-container center">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p>space-between</p>
+        <div class="flex-container space-between">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p>space-around</p>
+        <div class="flex-container space-around">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </body>
+</html>
